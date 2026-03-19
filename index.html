@@ -130,6 +130,8 @@ nav.scrolled{background:rgba(9,9,11,.92);backdrop-filter:blur(48px) saturate(1.5
 .wwd-head{text-align:center;margin-bottom:88px}
 .wwd-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1px;background:rgba(255,255,255,.02);border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.04)}
 .wwd-card{background:var(--dark);padding:52px 44px;transition:all .5s var(--ease);position:relative;overflow:hidden}
+.wwd-ai{background:url('https://v3b.fal.media/files/b/0a92be7b/EJEn7eYVL0uyXOls_D3R0_1SjpLGpF.png') center/cover no-repeat}
+.wwd-ai::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,.6);z-index:0}
 .wwd-card::after{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(255,255,255,.02),transparent 60%);opacity:0;transition:opacity .6s;pointer-events:none}
 .wwd-card:hover{background:rgba(39,39,42,.8)}
 .wwd-card:hover::after{opacity:1}
@@ -330,7 +332,7 @@ footer{padding:56px 0 48px;border-top:1px solid rgba(255,255,255,.035)}
 <section class="wwd bg-deep"><div class="container">
   <div class="wwd-head sr"><div class="s-label">What We Do</div><div class="s-title">Five pillars of <em>modern</em> venture building</div></div>
   <div class="wwd-grid">
-    <div class="wwd-card sr sr-d1"><div class="wwd-num">01 — AI &amp; Automation</div><h3>AI Products &amp; Intelligent Automation</h3><p>Proprietary AI systems — intelligent assistants, automated workflows, and machine learning tools that solve real business problems at scale.</p></div>
+    <div class="wwd-card wwd-ai sr sr-d1"><div class="wwd-num">01 — AI &amp; Automation</div><h3>AI Products &amp; Intelligent Automation</h3><p>Proprietary AI systems — intelligent assistants, automated workflows, and machine learning tools that solve real business problems at scale.</p></div>
     <div class="wwd-card sr sr-d2"><div class="wwd-num">02 — Software</div><h3>Software &amp; SaaS Development</h3><p>Full-stack product development from architecture to launch. Web applications, platforms, and SaaS products built with modern frameworks and production-grade infrastructure.</p></div>
     <div class="wwd-card sr sr-d3"><div class="wwd-num">03 — Growth</div><h3>Digital Growth Systems</h3><p>Performance marketing infrastructure, conversion optimization, and automated acquisition systems. The engines that drive measurable, repeatable growth.</p></div>
     <div class="wwd-card sr sr-d1"><div class="wwd-num">04 — Ventures</div><h3>Venture Building &amp; Incubation</h3><p>From concept to company. We identify opportunities, validate markets, build MVPs, and scale ventures with capital, talent, and operational expertise.</p></div>
