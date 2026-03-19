@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow:
+
+Sitemap: https://malkaventures.com/sitemap.xml
+
+# Malka Ventures — malkaventures.com
