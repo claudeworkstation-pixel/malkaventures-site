@@ -59,6 +59,7 @@ nav.scrolled{background:rgba(9,9,11,.92);backdrop-filter:blur(48px) saturate(1.5
    HERO — UPGRADED WITH CANVAS PARTICLES
    ═══════════════════════════════════════ */
 .hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:140px clamp(24px,8vw,120px) 100px;position:relative;overflow:hidden;background:url('https://v3b.fal.media/files/b/0a92be6c/cvcpPqvMQaG1AcqAIWTQj_03qekLjo.png') center/cover no-repeat}
+.hero::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,.55);z-index:0}
 
 /* Particle canvas */
 #hero-canvas{position:absolute;inset:0;z-index:0;pointer-events:none}
