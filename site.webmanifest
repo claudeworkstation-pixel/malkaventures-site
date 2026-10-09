@@ -1,21 +1,14 @@
 {
   "name": "Malka Ventures",
   "short_name": "Malka",
-  "description": "AI Venture Studio — Building, operating, and scaling digital ventures.",
+  "description": "A Montréal studio that builds software companies and runs them itself.",
   "start_url": "/",
-  "display": "standalone",
-  "background_color": "#09090b",
-  "theme_color": "#09090b",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#ffc933",
   "icons": [
-    {
-      "src": "/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "/apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png"
-    }
+    { "src": "/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/logo.png", "sizes": "512x512", "type": "image/png" }
   ]
 }

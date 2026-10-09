@@ -1,0 +1,7 @@
+/* Loaded only when JavaScript is off: keep the mobile menu reachable. */
+@media (max-width: 860px) {
+  .menu-toggle { display: none; }
+  .site-header { position: static; }
+  .header-row { flex-wrap: wrap; padding-block: 12px; }
+  .site-nav { display: flex; position: static; width: 100%; padding: 0 0 12px; border-bottom: 0; max-height: none; }
+}
