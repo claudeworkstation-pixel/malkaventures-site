@@ -256,6 +256,7 @@ h3 { font-size: clamp(1.4rem, 2vw, 1.75rem); letter-spacing: -0.02em; line-heigh
 .lab { margin-top: clamp(56px, 8vw, 104px); }
 
 /* About */
+.team { margin-bottom: clamp(40px, 6vw, 72px); }
 .founder { display: grid; gap: clamp(24px, 4vw, 56px); align-items: start; }
 @media (min-width: 760px) { .founder { grid-template-columns: auto 1fr; } }
 .avatar { width: 132px; height: 132px; border-radius: 50%; background: var(--sun); display: grid; place-items: center; font: 800 2.6rem/1 var(--display); letter-spacing: -0.04em; }
